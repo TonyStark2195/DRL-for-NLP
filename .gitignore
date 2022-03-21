@@ -1,0 +1,6 @@
+.idea/*
+artifacts/*
+logs/*
+*.txt
+*.pyc
+scripts/*.ipynb_checkpoints

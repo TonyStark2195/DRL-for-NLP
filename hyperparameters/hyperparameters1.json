@@ -1,0 +1,15 @@
+{
+	"lr": 0.00001,
+	"embedding_dimensions": 16,
+	"lstm_dimensions": 32,
+	"dense_dimensions": 8,
+	"epochs": 1,
+	"episodes": 8192,
+	"batch_size": 256,
+	"gamma": 0.95,
+	"epsilon": 1,
+	"epsilon_decay": 0.999,
+	"prioritized_fraction": 0.25,
+	"test_interval": 16,
+	"test_steps": [1, 5, 1, 5, 1, 1]
+}
